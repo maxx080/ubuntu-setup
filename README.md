@@ -7,13 +7,17 @@ Basic Ubuntu setup with some hardening. UFW, Fail2ban, rkhunter and NTP <br> <br
 ```
 $mkdir %FolderNameHere%
 ```
+ - CD into the folder
+```
+$cd %FolderNameHere%
+```
  - Clone the repo into the folder
 ```
 $git clone %RepoAddressHere%
 ```
  - CD into the folder 
 ```
-$cd %FolderNameHere%/
+$cd ubuntu-setup/
 ```
  - Set the setup.sh to executable
 ```
