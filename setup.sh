@@ -7,7 +7,7 @@ sudo cp cfg/sshd_config /etc/ssh/sshd_config
 #Reload sshd config now
 sudo systemctl reload sshd
 
-sudo apt install ufw fail2ban net-tools neofetch rkhunter ntpd -y
+sudo apt install ufw fail2ban net-tools neofetch rkhunter ntp -y
 
 #Copy NTP config with UK servers set
 sudo cp cfg/ntp.conf /etc/ntp.conf
