@@ -26,7 +26,7 @@ sudo chmod +x setup.sh
 
 ## SSH: 
 
-- Max Auth tried have been set to 3
+- Max Auth tried has been set to 3
 - Max sessions set to 4
 - Premit root login has been disabled
 - Permit empty passwords has been set to No
