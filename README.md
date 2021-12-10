@@ -4,11 +4,13 @@ Basic Ubuntu setup with some hardening. UFW, Fail2ban, rkhunter and NTP <br> <br
 ## How to use:
 
  - Make a new folder with a name you want
- - $mkdir %FolderNameHere%
-
+'''
+$mkdir %FolderNameHere%
+'''
  - Clone the repo into the folder
- - $git clone %RepoAddressHere%
-
+'''
+$git clone %RepoAddressHere%
+'''
 CD into the folder 
 $cd %FolderNameHere%/
 
