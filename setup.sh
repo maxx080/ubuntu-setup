@@ -1,4 +1,4 @@
-#Start with the basics
+#Strat with the basics
 sudo apt update && sudo apt upgrade -y
 
 #Copy sshd config over from cfg
