@@ -1,7 +1,7 @@
 # ubuntu-setup
 Basic Ubuntu setup with some hardening. UFW, Fail2ban, rkhunter and NTP
 
-<b>How to use:</b>
+<b><size=14>How to use:</b></size>
 
 Make a new folder with a name you want
 $mkdir %FolderNameHere%
