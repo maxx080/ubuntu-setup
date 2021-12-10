@@ -12,15 +12,17 @@ sudo apt install ufw fail2ban net-tools neofetch rkhunter ntp -y
 #Copy NTP config with UK servers set
 sudo cp cfg/ntp.conf /etc/ntp.conf
 
-#disable IPv6 with ufw
-sudo cp cfg/ufw /etc/default/ufw
-
 #ufw rules
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
 sudo ufw allow 53
 sudo ufw limit 22
 sudo ufw allow 80
 sudo ufw allow 443
 sudo ufw allow ssh
+
+#Disable IPv6 with ufw
+sudo cp cfg/ufw /etc/default/ufw
 
 #Enable ufw
 sudo ufw --force enable
