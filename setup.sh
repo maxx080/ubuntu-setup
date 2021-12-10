@@ -19,7 +19,7 @@ sudo ufw allow 53
 sudo ufw limit 22
 sudo ufw allow 80
 sudo ufw allow 443
-sudo ufw allow ssh
+sudo ufw limit ssh
 
 #Disable IPv6 with ufw
 sudo cp cfg/ufw /etc/default/ufw
