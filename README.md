@@ -1,7 +1,7 @@
 # ubuntu-setup
 Basic Ubuntu setup with some hardening. UFW, Fail2ban, rkhunter and NTP <br> <br>
 
-## How to use:
+# How to use:
 
  - Make a new folder with a name you want
 ```
@@ -25,9 +25,9 @@ $ ./setup.sh
 ```
  - Reboot once completed.
 
-## Changes made:
+# Changes made:
 
-# SSH: 
+## SSH: 
 
 - Max Auth tried have been set to 3
 - Max sessions set to 4
@@ -39,21 +39,21 @@ $ ./setup.sh
 - Password Authentication set to Yes
 - SSH Protocol version has been changed to 2
 
-UFW: <br>
+## UFW:
 
-IPv6 has been disabled <br>
-All outbound traffic is allowed <br>
-All Inbound traffic is disallowed other than: <br>
-22 limit #change this if you change the ssh port <br>
-80 allow <br>
-443 allow <br>
-53 allow <br>
+- IPv6 has been disabled
+- All outbound traffic is allowed
+- All Inbound traffic is disallowed other than:
+- 22 limit #change this if you change the ssh port
+- 80 allow
+- 443 allow
+- 53 allow
 
-Fail2ban: <br>
+## Fail2ban:
 
-Bantime set to 60m <br>
-Max retry has been set to 3 <br>
+- Bantime set to 60m
+- Max retry has been set to 3
 
-NTP: <br>
+## NTP:
 
-Changed the servers to UK time <br>
+- Changed the servers to UK time
