@@ -7,10 +7,13 @@ sudo cp cfg/sshd_config /etc/ssh/sshd_config
 #Reload sshd config now
 sudo systemctl reload sshd
 
-sudo apt install ufw fail2ban net-tools neofetch rkhunter ntp -y
+sudo apt install fail2ban net-tools neofetch rkhunter ntp -y
 
 #Copy NTP config with UK servers set
 sudo cp cfg/ntp.conf /etc/ntp.conf
+
+#Enable ufw
+sudo ufw enable
 
 #ufw rules
 sudo ufw default deny incoming
@@ -23,9 +26,6 @@ sudo ufw limit ssh
 
 #Disable IPv6 with ufw
 sudo cp cfg/ufw /etc/default/ufw
-
-#Enable ufw
-sudo ufw --force enable
 
 #Copy fail2ban config file
 sudo cp cfg/jail.local /etc/fail2ban/jail.local
