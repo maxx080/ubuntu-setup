@@ -6,7 +6,7 @@ Basic Ubuntu setup with some hardening. UFW, Fail2ban, rkhunter and NTP <br> <br
 
  - Clone the repo
 ```
-$git clone %RepoAddressHere%
+$git clone https://github.com/maxx080/ubuntu-setup.git
 ```
  - CD into the folder 
 ```
