@@ -41,10 +41,10 @@ sudo chmod +x setup.sh
 - IPv6 has been disabled
 - All outbound traffic is allowed
 - All Inbound traffic is disallowed other than:
-- 22 limit #change this if you change the ssh port
-- 80 allow
-- 443 allow
-- 53 allow
+- 22 limit - SSH- change this if you change the ssh port
+- 80 allow - HTTP
+- 443 allow - HTTPS
+- 53 allow - DNS
 
 ## Fail2ban:
 
