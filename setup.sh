@@ -20,6 +20,7 @@ sudo ufw allow 53
 sudo ufw limit 22
 sudo ufw allow 80
 sudo ufw allow 443
+sudo ufw allow ssh
 
 #Enable ufw
 sudo ufw --force enable
