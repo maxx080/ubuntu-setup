@@ -15,13 +15,14 @@ sudo cp cfg/ntp.conf /etc/ntp.conf
 #disable IPv6 with ufw
 sudo cp cfg/ufw /etc/default/ufw
 
-#Copy ufw rules
-sudo cp cfg/user.rules /etc/default/ufw/user.rules
+#ufw rules
+sudo ufw allow 53
+sudo ufw limit 22
+sudo ufw allow 80
+sudo ufw allow 443
 
 #Enable ufw
 sudo ufw --force enable
-
-sudo ufw allow 53
 
 #Copy fail2ban config file
 sudo cp cfg/jail.local /etc/fail2ban/jail.local
