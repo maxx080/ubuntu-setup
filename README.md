@@ -1,16 +1,16 @@
 # ubuntu-setup
 Basic Ubuntu setup with some hardening. UFW, Fail2ban, rkhunter and NTP <br> <br>
 
-<b><font size="24">How to use:</b></font> <br>
+## How to use:
 
-Make a new folder with a name you want <br>
-$mkdir %FolderNameHere% <br>
+ - Make a new folder with a name you want
+ - $mkdir %FolderNameHere%
 
-Clone the repo into the folder <br>
-$git clone %RepoAddressHere% <br>
+ - Clone the repo into the folder
+ - $git clone %RepoAddressHere%
 
-CD into the folder <br>
-$cd %FolderNameHere%/ <br>
+CD into the folder 
+$cd %FolderNameHere%/
 
 Set the setup.sh to executable <br>
 $sudo chmod +x setup.sh <br>
