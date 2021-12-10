@@ -6,19 +6,19 @@ Basic Ubuntu setup with some hardening. UFW, Fail2ban, rkhunter and NTP <br> <br
 
  - Clone the repo
 ```
-$git clone https://github.com/maxx080/ubuntu-setup.git
+git clone https://github.com/maxx080/ubuntu-setup.git
 ```
  - CD into the folder 
 ```
-$cd ubuntu-setup/
+cd ubuntu-setup/
 ```
  - Set the setup.sh to executable
 ```
-$sudo chmod +x setup.sh
+sudo chmod +x setup.sh
 ```
  - Run the script and await completion
 ```
-$ ./setup.sh
+./setup.sh
 ```
  - Reboot once completed.
 
